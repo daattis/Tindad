@@ -1,5 +1,6 @@
 # Tindad
-A webpage (of an imaginary mobile app) "Tindad" using HTML, CSS + Boostrap 4
+A webpage using HTML, CSS + Boostrap 4
+
 The idea of the page is to introduce a mobile app to stay-home-dads for networking and helping them arrange get-togethers with their kids. 
 The page wasdone along with the online course "The Complete 2021 Web Development Bootcamp" by App Brewery.
 
