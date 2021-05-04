@@ -4,9 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Tindad</title>
-  
-
-  
+    
   <!--- CSS -->
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -29,7 +27,7 @@
 
 <body>
 
-  <section id="title">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
       
     <!-- Nav Bar -->
@@ -42,13 +40,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
           </li>
       </ul>
    </div>
@@ -59,7 +57,7 @@
     <!-- Title -->
 <div class="row">
     <div class="col-lg-6">
-      <h1>Meet other <br>stay-at-home dads nearby.</h1>
+      <h1 class="big-heading">Meet other <br>stay-at-home dads nearby.</h1>
       <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
       <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>Download</button>
     </div>
@@ -73,53 +71,55 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="white-section" id="features">
+    <div class="container-fluid">
     <div class="row">
     <div class="col-lg-4 features-set">
     <i class="fas fa-check-circle fa-4x feature-images"></i>
-    <h3>Easy to use.</h3>
+    <h3 class="feature-title">Easy to use.</h3>
     <p>So easy to use, even your child could do it.</p>
   </div>
   <div class="col-lg-4 features-set">
     <i class="fas fa-comment-alt fa-4x feature-images"></i>
-    <h3>Guaranteed to work.</h3>
+    <h3 class="feature-title">Guaranteed to work.</h3>
     <p>Search for other dads who have kids the same age as yours.</p>
   </div>
   <div class="col-lg-4 features-set">
     <i class="fas fa-bullseye fa-4x feature-images"></i>
-    <h3>Search by location.</h3>
+    <h3 class="feature-title">Search by location.</h3>
     <p>Arrange a get-together at your local playground without a fuss.</p>
   </div>
   </div>
+</div>
   </section>
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section" id="testimonials">
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
-        <div class="carousel-item active">
-          <h2>This made my summer with the kids even a bit more fun. Get the app and be at the park at the same time with others.</h2>
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">This made my summer with the kids even a bit more fun. Get the app and be at the park at the same time with others.</h2>
           <img class="testimonial-image" src="images/playground.jpg" alt="playground">
           <em>William, New York</em>
         </div>
 
-        <div class="carousel-item">
-          <h2>My 2,5 year old desperately needed other kids to play with. This was an easy way to get acquinted and meet at the park.</h2>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My 2,5 year old desperately needed other kids to play with. This was an easy way to get acquinted and meet at the park.</h2>
           <img class="testimonial-image" src="images/baby.jpg" alt="baby-image">
           <em>Nico, Paris</em>
         </div>
 
-        <div class="carousel-item">
-          <h2>My recommendations! Met a few guys + their kids from my new neighbourhood and we got together weekly.</h2>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My recommendations! Met a few guys + their kids from my new neighbourhood and we got together weekly.</h2>
           <img class="testimonial-image" src="images/family.jpg" alt="family-image">
           <em>Piotr, Sweden</em>
           </div>
 
-          <div class="carousel-item">
-            <h2>Parenthood has it's ups and downs, and no one should go through full-time parenthood alone! What a cheerup!</h2>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">Parenthood has it's ups and downs, and no one should go through full-time parenthood alone! What a cheerup!</h2>
             <img class="testimonial-image" src="images/balls.jpg" alt="toy-balls">
             <em>Ville, Finland</em>
           </div>
@@ -140,7 +140,7 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="colored-section" id="press">
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -153,9 +153,9 @@
 
  
 
-  <section id="pricing">
+  <section class="white-section" id="pricing">
 
-    <h2>A Plan for Every Dad's Needs</h2>
+    <h2 class="section-heading">A Plan for Every Dad's Needs</h2>
     <p>Simple and affordable price plans for you and your child.</p>
    
       <div class="row">
@@ -163,10 +163,10 @@
         <div class="pricing-column col-lg-4 col-md-6">
          <div class="card">
           <div class="card-header">
-            <h3>Rattle</h3>
+            <h3 class="pricing-title">Rattle</h3>
           </div>
           <div class="card-body">
-            <h2>Free</h2>
+            <h2 class="price-text">Free</h2>
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
@@ -180,10 +180,10 @@
         <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
           <div class="card-header">
-            <h3>Teddy</h3>
+            <h3 class="pricing-title">Teddy</h3>
           </div>
           <div class="card-body">
-            <h2>$10 / mo</h2>
+            <h2 class="price-text">$10 / mo</h2>
             <p>10 Matches Per Day</p>
             <p>20 Messages Per Day</p>
             <p>Unlimited App Usage</p>
@@ -197,10 +197,10 @@
         <div class="pricing-column col-lg-4">
           <div class="card">
           <div class="card-header">
-            <h3>Rocket</h3>
+            <h3 class="pricing-title">Rocket</h3>
           </div>
           <div class="card-body">
-            <h2>$29 / mo</h2>
+            <h2 class="price-text">$29 / mo</h2>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -218,21 +218,25 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
     <div class="cta-header">
-    <h4>Find Friends for You and Your Child Today.</h4>
+    <h4 class="big-heading">Find Friends for You and Your Child Today.</h4>
     </div>
     <div class="cta-buttons">
     <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
     <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>Download</button>
     </div>
+  </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-
+  <footer class="white-section" id="footer">
+    <div class="container-fluid"> 
     <div>
     <i class="fab fa-twitter footer-icons"></i>
     <i class="fab fa-facebook-f footer-icons"></i>
@@ -240,7 +244,7 @@
     <i class="fas fa-envelope footer-icons"></i>
 
     <p>© Copyright 2021 Tindad</p>
-
+  </div>
   </div>
 
   </footer>
